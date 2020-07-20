@@ -1,0 +1,151 @@
+body{
+  text-align: center;
+}
+.Epam{
+  width: 300px;
+  text-align: center;
+  background-color: turquoise;
+  color: white;
+  margin: auto;
+  margin-top: 150px ;
+}
+.form_body{
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+.form{
+  padding: 10px;
+}
+.email{
+  width: 100%;
+  height: 20px;
+}
+.password{
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+.button1{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  border: transparent;
+  background-color: turquoise;
+  color: white;
+  margin-top: 15px;
+}
+.button1:hover{
+  cursor: pointer;
+  background: coral;
+  color: white;
+}
+.a1{
+  text-decoration: none;
+  font-size: 15px;
+  color:darkgrey;
+  line-height: 20px;
+}
+.a2{
+  text-decoration: none;
+  color: darkgray;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.vl {
+  position: absolute;
+  border: 2px solid #ddd;
+  width: 300px;
+}
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+.facebook{
+  top: 30px;
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: rgb(63, 42, 201);
+  margin-top: 15px;
+}
+.gplus{
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: rgb(236, 39, 13);
+  margin-top: 15px;
+}
+.epm_log{
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: rgb(102, 199, 5);
+  margin-top: 30px;
+}
+
+@media screen and (min-width:1px) and (max-width: 575px) {
+  .Epam {
+    width: 320px;
+    margin-top: 0;
+    height: 480px;
+  }
+  .form_body{
+    width: 320px;
+    height: 480px;
+  }
+}
+@media screen and (min-width:576px)  and (max-width: 767px) {
+  .Epam {
+    width: 640px;
+    margin-top: 0;
+    height: 1134px;
+  }
+  .form_body{
+    width: 640px;
+    height: 1134px;
+  }
+}
+@media screen and (min-width: 768px)  and (max-width: 991px) {
+  .Epam {
+    width: 800px;
+    margin-top: 0;
+    height: 1280px;
+  }
+  .form_body{
+    width: 800px;
+    height: 1280px;
+  }
+}
+@media screen and (min-width: 992px)  and (max-width: 1199px) {
+  .Epam {
+    width: 1125px;
+    margin-top: 0;
+    height: 2436px;
+  }
+  .form_body{
+    width: 1125px;
+    height: 2436px;
+  }
+}
+@media screen and (max-width:1200px)  {
+  .Epam {
+    width: auto;
+    height: auto;
+  }
+  .form_body{
+    width: auto;
+    height: auto;
+  }
+}
